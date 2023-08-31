@@ -155,13 +155,15 @@ margin-left: 240px;
     display: none;
 }
 
-@media screen  and (max-width: 375px){
+@media screen  and (max-width: 480px){
  .container .navbar .mySideNav{
 cursor: pointer;
  }
 
    .navbar .icon-menu{
        display: block;
+       
+       
        margin-left: 12em;
    }
    .navbar .dropdown {
@@ -257,11 +259,13 @@ line-height: 25px;
 }
 .container .mySidehero{
     display: block;
-    width: 370px;
+    width: 90%;
     margin-top: 20px;
+    margin-left: 10px;
 }
 .container .mySide-hero-img{
-    width: 370px;
+    width: 90%;
+    margin-left: 10px;
 }
 
 .mySidehero1{
